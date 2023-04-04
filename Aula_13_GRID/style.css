@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-rows: 50px 50px 50px 40px;
+  grid-template-areas:
+    'nav cabecalho cabecalho'
+    'nav secao aside'
+    'nav secao aside'
+    'nav footer footer';
+  gap: 10px;
+}
+
+.navegacao {
+  background-color: orange;
+  grid-area: nav;
+}
+
+.cabecalho {
+  background-color: blue;
+  grid-area: cabecalho;
+}
+
+.secao {
+  background-color: green;
+  grid-area: secao;
+}
+
+.aside {
+  background-color: red;
+  grid-area: aside;
+}
+
+.footer {
+  background-color: violet;
+  grid-area: footer;
+}

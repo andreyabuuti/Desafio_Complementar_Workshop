@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  font-weight: bold;
+  height: 500px;
+  text-align: center;
+}
+
+.container .navegacao {
+  background-color: orange;
+  width: 150px;
+}
+
+.container .outros {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .outros .cabecalho {
+  background-color: red;
+  height: 100px;
+}
+
+.container .outros .corpo {
+  display: flex;
+}
+
+.container .outros .corpo .conteudo {
+  background-color: violet;
+  height: 300px;
+  width: 300px;
+}
+
+.container .outros .corpo .barra-lateral {
+  background-color: lightcoral;
+  width: 100px;
+}
+
+.container .outros .rodape {
+  background-color: green;
+  height: 100px;
+}

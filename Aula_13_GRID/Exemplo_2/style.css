@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 50px 50px 50px;
+  width: 700px;
+  height: 250px;
+  grid-template-areas:
+    'navegation navegation head head head'
+    'navegation navegation sec2 sec2 aside'
+    'sec1 sec1 sec2 sec2 footer';
+  gap: 5px;
+}
+
+.navegation {
+  background-color: green;
+  grid-area: navegation;
+  border-radius: 5px;
+}
+
+.head {
+  background-color: lightblue;
+  grid-area: head;
+  border-radius: 5px;
+}
+
+.sec1 {
+  background-color: pink;
+  grid-area: sec1;
+  border-radius: 5px;
+}
+
+.sec2 {
+  background-color: brown;
+  grid-area: sec2;
+  border-radius: 5px;
+}
+
+.aside {
+  background-color: gray;
+  grid-area: aside;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: lightsalmon;
+  grid-area: footer;
+  border-radius: 5px;
+}

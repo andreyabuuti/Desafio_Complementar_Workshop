@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: brown;
+  height: 700px;
+  align-items: baseline;
+}
+
+.container .container-filho {
+  width: 10px;
+  height: 10px;
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 15px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
